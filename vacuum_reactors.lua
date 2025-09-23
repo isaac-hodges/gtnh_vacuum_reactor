@@ -61,12 +61,12 @@ local REACTOR_FUEL_ROD_DEPLETED = {
     ["gregtech:gt.depletedrodThorium2"] = true,
     ["gregtech:gt.depletedrodThorium4"] = true,
     --Rods for gtnh 2.7.4-
-    ["gregtech:gt.reactorUraniumSimple"] = true,
-    ["gregtech:gt.reactorUraniumDual"] = true,
-    ["gregtech:gt.reactorUraniumQuad"] = true,
-    ["gregtech:gt.Thoriumcell"] = true,
-    ["gregtech:gt.Double_Thoriumcell"] = true,
-    ["gregtech:gt.Quad_Thoriumcell"] = true,
+    ["IC2:reactorUraniumSimpledepleted"] = true,
+    ["IC2:reactorUraniumDualdepleted"] = true,
+    ["IC2:reactorUraniumQuaddepleted"] = true,
+    ["gregtech:gt.ThoriumcellDep"] = true,
+    ["gregtech:gt.Double_ThoriumcellDep"] = true,
+    ["gregtech:gt.Quad_ThoriumcellDep"] = true,
     -- idk make a PR with the rest or smth I don't care myself
 }
 
