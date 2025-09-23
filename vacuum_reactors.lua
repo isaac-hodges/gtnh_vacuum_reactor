@@ -24,6 +24,7 @@ local REACTOR_COMPONENT_CLASSIFICATION = {
     ["gregtech:gt.360k_Space_Coolantcell"] = REACTOR_COMPONENT_COOLANT_CELL,
     ["gregtech:gt.540k_Space_Coolantcell"] = REACTOR_COMPONENT_COOLANT_CELL,
     ["gregtech:gt.1080k_Space_Coolantcell"] = REACTOR_COMPONENT_COOLANT_CELL,
+    -- Rods for gtnh 2.8.0+
     ["gregtech:gt.rodUranium"] = REACTOR_COMPONENT_FUEL_ROD,
     ["gregtech:gt.rodUranium2"] = REACTOR_COMPONENT_FUEL_ROD,
     ["gregtech:gt.rodUranium4"] = REACTOR_COMPONENT_FUEL_ROD,
@@ -36,15 +37,36 @@ local REACTOR_COMPONENT_CLASSIFICATION = {
     ["gregtech:gt.depletedrodThorium"] = REACTOR_COMPONENT_FUEL_ROD,
     ["gregtech:gt.depletedrodThorium2"] = REACTOR_COMPONENT_FUEL_ROD,
     ["gregtech:gt.depletedrodThorium4"] = REACTOR_COMPONENT_FUEL_ROD,
+    --Rods for gtnh 2.7.4-
+    ["gregtech:gt.reactorUraniumSimple"] = REACTOR_COMPONENT_FUEL_ROD,
+    ["gregtech:gt.reactorUraniumDual"] = REACTOR_COMPONENT_FUEL_ROD,
+    ["gregtech:gt.reactorUraniumQuad"] = REACTOR_COMPONENT_FUEL_ROD,
+    ["gregtech:gt.Thoriumcell"] = REACTOR_COMPONENT_FUEL_ROD,
+    ["gregtech:gt.Double_Thoriumcell"] = REACTOR_COMPONENT_FUEL_ROD,
+    ["gregtech:gt.Quad_Thoriumcell"] = REACTOR_COMPONENT_FUEL_ROD,
+    ["IC2:reactorUraniumSimpledepleted"] = REACTOR_COMPONENT_FUEL_ROD,
+    ["IC2:reactorUraniumDualdepleted"] = REACTOR_COMPONENT_FUEL_ROD,
+    ["IC2:reactorUraniumQuaddepleted"] = REACTOR_COMPONENT_FUEL_ROD,
+    ["gregtech:gt.ThoriumcellDep"] = REACTOR_COMPONENT_FUEL_ROD,
+    ["gregtech:gt.Double_ThoriumcellDep"] = REACTOR_COMPONENT_FUEL_ROD,
+    ["gregtech:gt.Quad_ThoriumcellDep"] = REACTOR_COMPONENT_FUEL_ROD,
 }
 
 local REACTOR_FUEL_ROD_DEPLETED = {
+    -- Rods for gtnh 2.8.0+
     ["gregtech:gt.depletedrodUranium"] = true,
     ["gregtech:gt.depletedrodUranium2"] = true,
     ["gregtech:gt.depletedrodUranium4"] = true,
     ["gregtech:gt.depletedrodThorium"] = true,
     ["gregtech:gt.depletedrodThorium2"] = true,
     ["gregtech:gt.depletedrodThorium4"] = true,
+    --Rods for gtnh 2.7.4-
+    ["gregtech:gt.reactorUraniumSimple"] = true,
+    ["gregtech:gt.reactorUraniumDual"] = true,
+    ["gregtech:gt.reactorUraniumQuad"] = true,
+    ["gregtech:gt.Thoriumcell"] = true,
+    ["gregtech:gt.Double_Thoriumcell"] = true,
+    ["gregtech:gt.Quad_Thoriumcell"] = true,
     -- idk make a PR with the rest or smth I don't care myself
 }
 
