@@ -31,12 +31,12 @@ local REACTOR_COMPONENT_CLASSIFICATION = {
     ["gregtech:gt.rodThorium"] = REACTOR_COMPONENT_FUEL_ROD,
     ["gregtech:gt.rodThorium2"] = REACTOR_COMPONENT_FUEL_ROD,
     ["gregtech:gt.rodThorium4"] = REACTOR_COMPONENT_FUEL_ROD,
-    ["gregtech:gt.depletedrodUranium"] = REACTOR_COMPONENT_FUEL_ROD,
-    ["gregtech:gt.depletedrodUranium2"] = REACTOR_COMPONENT_FUEL_ROD,
-    ["gregtech:gt.depletedrodUranium4"] = REACTOR_COMPONENT_FUEL_ROD,
-    ["gregtech:gt.depletedrodThorium"] = REACTOR_COMPONENT_FUEL_ROD,
-    ["gregtech:gt.depletedrodThorium2"] = REACTOR_COMPONENT_FUEL_ROD,
-    ["gregtech:gt.depletedrodThorium4"] = REACTOR_COMPONENT_FUEL_ROD,
+    ["gregtech:gt.depletedRodUranium"] = REACTOR_COMPONENT_FUEL_ROD,
+    ["gregtech:gt.depletedRodUranium2"] = REACTOR_COMPONENT_FUEL_ROD,
+    ["gregtech:gt.depletedRodUranium4"] = REACTOR_COMPONENT_FUEL_ROD,
+    ["gregtech:gt.depletedRodThorium"] = REACTOR_COMPONENT_FUEL_ROD,
+    ["gregtech:gt.depletedRodThorium2"] = REACTOR_COMPONENT_FUEL_ROD,
+    ["gregtech:gt.depletedRodThorium4"] = REACTOR_COMPONENT_FUEL_ROD,
     --Rods for gtnh 2.7.4-
     ["gregtech:gt.reactorUraniumSimple"] = REACTOR_COMPONENT_FUEL_ROD,
     ["gregtech:gt.reactorUraniumDual"] = REACTOR_COMPONENT_FUEL_ROD,
@@ -54,12 +54,12 @@ local REACTOR_COMPONENT_CLASSIFICATION = {
 
 local REACTOR_FUEL_ROD_DEPLETED = {
     -- Rods for gtnh 2.8.0+
-    ["gregtech:gt.depletedrodUranium"] = true,
-    ["gregtech:gt.depletedrodUranium2"] = true,
-    ["gregtech:gt.depletedrodUranium4"] = true,
-    ["gregtech:gt.depletedrodThorium"] = true,
-    ["gregtech:gt.depletedrodThorium2"] = true,
-    ["gregtech:gt.depletedrodThorium4"] = true,
+    ["gregtech:gt.depletedRodUranium"] = true,
+    ["gregtech:gt.depletedRodUranium2"] = true,
+    ["gregtech:gt.depletedRodUranium4"] = true,
+    ["gregtech:gt.depletedRodThorium"] = true,
+    ["gregtech:gt.depletedRodThorium2"] = true,
+    ["gregtech:gt.depletedRodThorium4"] = true,
     --Rods for gtnh 2.7.4-
     ["IC2:reactorUraniumSimpledepleted"] = true,
     ["IC2:reactorUraniumDualdepleted"] = true,
